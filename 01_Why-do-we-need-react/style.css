@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(4, 4, 4);
+  color: white;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+
+button {
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}

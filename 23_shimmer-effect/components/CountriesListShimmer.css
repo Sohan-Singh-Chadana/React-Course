@@ -1,0 +1,18 @@
+.shimmer-card {
+    height: 350px;
+    background-color: #fff;
+}
+
+.shimmer-card .cover-img {
+    background-color: #ccc;
+    height: 180px;
+}
+
+.shimmer-card .card-title,
+.shimmer-card .card-text p {
+    background-color: #ccc;
+    color: transparent;
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+}

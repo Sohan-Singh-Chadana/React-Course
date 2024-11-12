@@ -1,2 +1,1 @@
-# react-course
 # React-Course

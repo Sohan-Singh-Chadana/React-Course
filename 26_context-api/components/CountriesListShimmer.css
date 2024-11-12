@@ -1,0 +1,34 @@
+.shimmer-card {
+  height: 350px;
+  background-color: #fff;
+}
+
+main.dark .shimmer-card {
+  background-color: hsl(209, 23%, 22%);
+}
+
+.shimmer-card .cover-img {
+  background-color: #ccc;
+  height: 180px;
+}
+
+main.dark .shimmer-card .cover-img {
+  background-color: hsl(207, 12%, 37%);
+}
+
+.shimmer-card .card-title,
+.shimmer-card .card-text p {
+  background-color: #ccc;
+  color: transparent;
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+main.dark .shimmer-card .card-title,
+main.dark .shimmer-card .card-text p {
+  background-color: hsl(207, 12%, 37%);
+}
+
+/* --elements-color: hsl(209, 23%, 22%);
+--skeleton-color: hsl(207, 12%, 37%); */

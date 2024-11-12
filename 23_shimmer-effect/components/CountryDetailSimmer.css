@@ -1,0 +1,40 @@
+.simmer-img {
+    background-color: #ccc;
+    height: 420px;
+    width: 100%;
+}
+
+.shimmer-container {
+    background-color: #f3f1f1;
+    height: 430px;
+    /* width: 60%; */
+}
+
+.shimmer-container h1 {
+    background-color: #ccc;
+    width: 100%;
+    height: 45px;
+    color: transparent;
+    border-radius: 5px;
+}
+
+.shimmer-text p {
+    background: #ccc;
+    height: 25px;
+    color: transparent;
+    border-radius: 5px;
+}
+
+.shimmer-border {
+    color: transparent;
+}
+
+.shimmer-border a {
+    background-color: #ccc;
+    border-radius: 5px;
+    margin-inline: 4px;
+    padding: 4px 16px;
+    box-shadow: none;
+}
+
+@media (max-width: 940px) {}

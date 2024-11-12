@@ -1,0 +1,20 @@
+section {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 4rem;
+  align-items: center;
+}
+
+button {
+  cursor: pointer;
+  background-color: rgb(134, 198, 233);
+  border: 1px solid #0c3bf8;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+button img {
+  max-width: 40px;
+}

@@ -1,0 +1,22 @@
+section {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 4rem;
+  align-items: center;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 5px;
+  border: 0;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: khaki;
+}
+
+button img {
+  max-width: 40px;
+}

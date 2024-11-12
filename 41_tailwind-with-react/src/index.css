@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  @apply font-Roboto box-border;
+}
+
+.heading {
+  @apply mx-auto flex max-w-7xl items-center justify-center py-6 text-2xl font-medium;
+}
+
+.listyle {
+  @apply p-2 text-xl font-medium;
+}
+
+.active {
+  @apply rounded-md text-purple-700;
+}

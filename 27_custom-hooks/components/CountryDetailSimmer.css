@@ -1,0 +1,55 @@
+.simmer-img {
+  background-color: #ccc;
+  height: 300px;
+  width: 100%;
+}
+
+main.dark .simmer-img {
+  background-color: hsl(207, 12%, 37%);
+}
+
+.shimmer-container {
+  height: 300px;
+  /* background-color: #f3f1f1; */
+  /* width: 60%; */
+}
+
+main.dark .shimmer-container {
+  background-color: unset;
+}
+
+.shimmer-container h1 {
+  background-color: #ccc;
+  width: 100%;
+  height: 25px;
+  color: transparent;
+  border-radius: 5px;
+}
+
+.shimmer-text p {
+  background-color: #ccc;
+  height: 20px;
+  width: 100% !important;
+  color: transparent;
+  border-radius: 5px;
+}
+
+.shimmer-border {
+  color: transparent;
+  margin-top: 20px;
+}
+
+.shimmer-border a {
+  box-shadow: none;
+  background-color: #ccc;
+  border-radius: 5px;
+  height: 25px;
+  width: 90px;
+  margin: 0;
+}
+
+main.dark .shimmer-container h1,
+main.dark .shimmer-text p,
+main.dark .shimmer-border a {
+  background-color: hsl(207, 12%, 37%);
+}
